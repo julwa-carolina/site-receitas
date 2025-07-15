@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Kavivanar&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* colocar roots */
+header {
+    background-color: #40211E ;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-family:  "Kalam", cursive;
+    color: whitesmoke;
+    margin: 10px 0px 20px 0px;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.37);
+}
+
+nav li {
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+#home {
+    max-width: 1024px;
+    min-height: 600px;
+    margin: 0 auto;
+    padding: 30px;
+
+    box-shadow: 1px 1px 23px rgba(0, 0, 0, 0.226);
+    background-color: white;
+    border-radius: 10px;
+}
+#home h2, p {
+    padding: 10px;
+    font-size: 1.2em;
+}
+div#home img {
+   height: 662px;
+   width: 1024px;
+}
+
+body {
+    background-color: #F2D4C2;
+}
+section {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#container {
+    max-width: 1024px;
+    min-height: 600px;
+    margin: 0 auto;
+    text-align: center;
+
+    box-shadow: 1px 1px 23px rgba(0, 0, 0, 0.247);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.foto {
+    width: 500px;
+    height: 400px;  
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    margin: 10px 10px;
+    display: inline-block;
+}
+
+/* #box-1 {
+    background-color: red;
+}
+
+#box-2 {
+    background-color: green;
+} */
+
+span.texto {
+    text-align: center;
+}
+
+/*
+#receita img{
+    width: 480px;
+    height: 320px;
+    padding: 10px 12px 0px 12px;
+}
+
+.reum {
+    display: inline-block;
+    width:
+    height:
+    background-color: lightblue;
+    position: absolute;
+}
+
+.re {
+    background-color: #D90404;
+    position: absolute;
+}
+#receita h2 { 
+    padding: 10px;
+    text-align: center;
+}
+*/
+
+footer {
+    margin-top: 30px;
+    font-size: 12px;
+    text-align: center;
+    background-color: rgb(255, 191, 195);
+} 
+
+
+h2 {
+    color: #c76060;
+    font-weight: bold;
+}
+h3 {
+    text-align: justify;
+}
